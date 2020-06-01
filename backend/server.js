@@ -1,5 +1,5 @@
 const express = require('express')
-const cors = require('cors');
+const cors = require('cors')
 const mongoose = require('mongoose'); //help to connect to mongo db
 
 //to have variables in dotenv file
@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 //middleware 
-app.use(cors());
+app.use(cors())
 //allow us to parse json
 app.use(express.json());
 
